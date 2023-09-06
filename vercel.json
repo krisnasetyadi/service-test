@@ -3,8 +3,7 @@
     "builds": [
       {
         "src": "dist/main.ts",
-        "use": "@vercel/node",
-        "config": { "outputDirectory": "public" }
+        "use": "@vercel/node"
       }
     ],
     "routes": [
