@@ -8,7 +8,7 @@
       }
     ],
     "routes": [
-      { "src": "/(.*)", "dest": "dist/main.ts", "method": ["GET", "POST"] }
+      { "src": "/(.*)", "dest": "dist/main.ts", "methods": ["GET", "POST"] }
     ]
   }
   
